@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: orange;
+    color: white;
+}
+#header-nav {
+    border-radius: 0;
+    background-color: red;
+    border: 0;
+}
+div h2 {
+    text-align: center;
+}
+#chicken{
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    height: 500px;
+    width: 80% auto;
+    border: 2px solid black;
+    font-size: 2vw;
+}
+#sushi{
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    height: 500px;
+    width: 80% auto;
+    border: 2px solid black;
+    font-size: 2vw;
+}
+#beef{
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    height: 500px;
+    width: 80% auto;
+    border: 2px solid black;
+    font-size: 2vw;
+}
