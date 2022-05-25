@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
                     <h1>FOOD, LLC</h1>
-                </div>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-            </div>
+                </div> <!--.navbar-header-->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                    <li><a href="#chicken">CHICKEN</a></li>
+                    <li><a href="#sushi">SUSHI</a></li>
+                    <li><a href="#beef">BEEF</a></li>
+                </ul> <!--#nav-list-->
+                </div> <!-- .collapse .navbar-collapse-->
+            </div> <!--.container-->
+
         </nav>
 
     </header>
@@ -28,13 +36,13 @@
     <div>
         <div><h2>Our Menu</h2></div>
         <div class="container">
-            <div id="chicken" class="col-xs-12"><P><h3>CHICKEN</h3></P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo officiis dignissimos voluptatibus ab. Quam id commodi alias nulla corrupti assumenda nam animi unde, laudantium, aut doloremque blanditiis saepe repudiandae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi natus voluptates! Quidem illo consequuntur natus molestiae doloremque officia excepturi asperiores, fugit eveniet, alias, culpa ab. Reprehenderit voluptates quasi excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto hic soluta doloribus porro? Sunt asperiores consequatur ea voluptate deleniti. Dolor excepturi iusto tempora officiis reprehenderit. Odio tempore unde magni architecto.</div>
-            <div id="sushi" class="col-xs-12"><p><h3>SUSHI</h3></p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet beatae nemo, quae quod illum quasi porro officia alias sunt a saepe nobis recusandae asperiores corrupti excepturi nulla dolorum quis eaque!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate ratione rerum ad fugit quasi. Illo deleniti placeat deserunt incidunt, assumenda cupiditate vel eum, quibusdam nam, sunt mollitia quisquam accusantium?</div>
-            <div id="beef" class="col-xs-12"><p><h3>BEEF</h3></p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur consequuntur commodi porro atque ducimus! Vitae, assumenda pariatur, doloribus odit quasi voluptatibus ullam est molestias voluptatem natus quisquam, labore commodi culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam corrupti accusamus sed doloremque ratione, dolor voluptate praesentium cum illo excepturi veritatis quasi? Temporibus in illum nulla, laborum officiis magnam! </div>
+            <div id="chicken" class="col-xs-12"><P><h3>CHICKEN</h3></P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo officiis dignissimos voluptatibus ab. Quam id commodi alias nulla corrupti assumenda nam animi unde, laudantium, aut doloremque blanditiis saepe repudiandae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi natus voluptates! Quidem illo consequuntur natus molestiae doloremque officia excepturi asperiores, fugit eveniet, alias, culpa ab. Reprehenderit voluptates quasi excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto hic soluta doloribus porro? Sunt asperiores consequatur ea voluptate deleniti. Dolor excepturi iusto tempora officiis reprehenderit. Odio tempore unde magni architecto. <a href="#top"><h4>Back to the top</h4></a></div>
+            <div id="sushi" class="col-xs-12"><p><h3>SUSHI</h3></p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet beatae nemo, quae quod illum quasi porro officia alias sunt a saepe nobis recusandae asperiores corrupti excepturi nulla dolorum quis eaque!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate ratione rerum ad fugit quasi. Illo deleniti placeat deserunt incidunt, assumenda cupiditate vel eum, quibusdam nam, sunt mollitia quisquam accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil porro laborum laboriosam, amet tempora ipsum officia, alias sunt impedit voluptate similique modi nobis dolorum dignissimos voluptas doloribus, eos odio. <a href="#top"><h4>Back to the top</h4></a></div>
+            <div id="beef" class="col-xs-12"><p><h3>BEEF</h3></p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur consequuntur commodi porro atque ducimus! Vitae , assumenda pariatur, doloribus odit quasi voluptatibus ullam est molestias voluptatem natus quisquam, labore commodi culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam corrupti accusamus sed doloremque ratione, dolor voluptate praesentium cum illo excepturi veritatis quasi? Temporibus in illum nulla, laborum officiis magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium distinctio, exercitationem praesentium soluta enim nobis cumque nulla maxime dolores debitis, aperiam quod autem quaerat magni sapiente fugit labore tempore eveniet. <a href="#top"><h4>Back to the top</h4></a></div>
         </div>
     </div>
 
-
+    <script src="js\jquery-1.11.3.min (1).js"></script>
     <script src="js\bootstrap.min.js"></script>
 </body>
 </html>
