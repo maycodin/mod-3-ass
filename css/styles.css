@@ -13,6 +13,9 @@ body {
 div h2 {
     text-align: center;
 }
+h4{
+    color: white;
+}
 #chicken{
     background-color: grey;
     text-align: center;
@@ -42,4 +45,17 @@ div h2 {
     width: 80% auto;
     border: 2px solid black;
     font-size: 2vw;
+}
+
+#nav-list li:hover{
+    background-color: gray;
+    color: white;
+}
+#collapsable-nav li a{
+    border: 1px solid orange;
+    color: white;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .iconbar {
+    border: 1px solid orange;
 }
